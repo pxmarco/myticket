@@ -31,7 +31,7 @@ export default {
   },
   methods: {
     async consultarMenu() {
-      const response = await fetch ("http://localhost:3000/menu");
+      const response = await fetch ("https://api-myticket.onrender.com/menu");
       const dados = await response.json();
       this.listaMenuEventos = dados.eventos;
       console.log(this.listaMenuEventos);

@@ -113,12 +113,12 @@ export default {
     },
 
     async getTiposSetor() {
-      const response = await fetch("http://localhost:3000/tipos_setor");
+      const response = await fetch("https://api-myticket.onrender.com/tipos_setor");
       const dados = await response.json();
       this.listaTiposSetor = dados;
     },
     async getOpcionais() {
-      const response = await fetch("http://localhost:3000/opcionais");
+      const response = await fetch("https://api-myticket.onrender.com/opcionais");
       const dados = await response.json();
       this.listaPacotes = dados.pacote;
       this.listaExtras = dados.extras;
@@ -153,7 +153,7 @@ export default {
 
       const dadosJson = JSON.stringify(dadosPedido);
 
-      const req = await fetch("http://localhost:3000/pedidos", {
+      const req = await fetch("https://api-myticket.onrender.com/pedidos", {
         method: "POST",
         headers: {"Content-Type": "application/json" },
         body: dadosJson,
