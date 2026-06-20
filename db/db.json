@@ -1,0 +1,171 @@
+{
+  "tipos_setor": [
+    {
+      "id": 1,
+      "descricao": "Pista"
+    },
+    {
+      "id": 2,
+      "descricao": "Camarote"
+    },
+    {
+      "id": 3,
+      "descricao": "VIP"
+    },
+    {
+      "id": 4,
+      "descricao": "Backstage"
+    }
+  ],
+  "status_pedido": [
+    {
+      "id": 1,
+      "descricao": "Pedido em espera"
+    },
+    {
+      "id": 2,
+      "descricao": "Pagamento confirmado"
+    },
+    {
+      "id": 3,
+      "descricao": "Ingresso gerado"
+    },
+    {
+      "id": 4,
+      "descricao": "Entregue"
+    },
+    {
+      "id": 5,
+      "descricao": "Pedido pendente"
+    },
+    {
+      "id": 6,
+      "descricao": "Pedido realizado"
+    }
+  ],
+  "pedidos": [],
+  "opcionais": {
+    "pacote": [
+      {
+        "id": 1,
+        "nome": "Combo VIP + Estacionamento",
+        "descricao": "Ingresso VIP com direito a vaga garantida no estacionamento do local do evento",
+        "foto": "https://images.unsplash.com/photo-1506157786151-b8491531f063?w=75&h=75&fit=crop",
+        "valor": 80,
+        "eh_novidade": true
+      },
+      {
+        "id": 2,
+        "nome": "Kit Foto Oficial",
+        "descricao": "Sessão de fotos profissional no evento com entrega digital em até 48h",
+        "foto": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=75&h=75&fit=crop",
+        "valor": 50,
+        "eh_novidade": false
+      }
+    ],
+    "extras": [
+      {
+        "id": 1,
+        "nome": "Camiseta Oficial do Evento",
+        "descricao": "",
+        "foto": "https://images.unsplash.com/photo-1529374255404-311a2a4f1fd9?w=75&h=75&fit=crop",
+        "valor": 60,
+        "eh_novidade": false
+      },
+      {
+        "id": 2,
+        "nome": "Estacionamento Reservado",
+        "descricao": "",
+        "foto": "https://images.unsplash.com/photo-1506521781263-d8422e82f27a?w=75&h=75&fit=crop",
+        "valor": 30,
+        "eh_novidade": false
+      },
+      {
+        "id": 3,
+        "nome": "Meet & Greet",
+        "descricao": "",
+        "foto": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=75&h=75&fit=crop",
+        "valor": 150,
+        "eh_novidade": true
+      },
+      {
+        "id": 4,
+        "nome": "Seguro do Ingresso",
+        "descricao": "",
+        "foto": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=75&h=75&fit=crop",
+        "valor": 20,
+        "eh_novidade": false
+      }
+    ]
+  },
+  "menu": {
+    "destaque": [
+      {
+        "id": 1,
+        "nome": "Rock in Rio 2025",
+        "foto": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?w=75&h=75&fit=crop",
+        "descricao": "O maior festival de música do mundo está de volta! Cinco dias de shows internacionais com os maiores artistas do planeta no Parque Olímpico, Rio de Janeiro.",
+        "valor": 350,
+        "eh_novidade": true
+      }
+    ],
+    "eventos": [
+      {
+        "id": 1,
+        "nome": "Lollapalooza Brasil",
+        "foto": "https://images.unsplash.com/photo-1501281668745-f7f57925c3b4?w=75&h=75&fit=crop",
+        "descricao": "Festival multimídia com atrações nacionais e internacionais por três dias seguidos no Autódromo de Interlagos, São Paulo.",
+        "valor": 280,
+        "eh_novidade": true
+      },
+      {
+        "id": 2,
+        "nome": "Festival Tomorrowland Brasil",
+        "foto": "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=75&h=75&fit=crop",
+        "descricao": "A maior festa de música eletrônica do mundo chega ao Brasil com DJs renomados e uma produção de palco incomparável.",
+        "valor": 320,
+        "eh_novidade": true
+      },
+      {
+        "id": 3,
+        "nome": "Show: Coldplay",
+        "foto": "https://images.unsplash.com/photo-1429962714451-bb934ecdc4ec?w=75&h=75&fit=crop",
+        "descricao": "A banda britânica Coldplay retorna ao Brasil com o Music of the Spheres World Tour, uma experiência visual e sonora única no Estádio Nilton Santos.",
+        "valor": 420,
+        "eh_novidade": true
+      },
+      {
+        "id": 4,
+        "nome": "Comic Con Experience",
+        "foto": "https://images.unsplash.com/photo-1608889825205-eebdb9fc5806?w=75&h=75&fit=crop",
+        "descricao": "O maior evento de cultura pop da América Latina traz painéis exclusivos, exposições, lançamentos e encontros com celebridades no São Paulo Expo.",
+        "valor": 180,
+        "eh_novidade": true
+      },
+      {
+        "id": 5,
+        "nome": "Primavera Sound São Paulo",
+        "foto": "https://images.unsplash.com/photo-1459749411175-04bf5292ceea?w=75&h=75&fit=crop",
+        "descricao": "Festival de música independente com curadoria internacional celebrando diversidade musical e artística no Parque Estadual da Cantareira.",
+        "valor": 260,
+        "eh_novidade": true
+      },
+      {
+        "id": 6,
+        "nome": "Show: Ivete Sangalo",
+        "foto": "https://images.unsplash.com/photo-1540039155733-5bb30b4a68a7?w=75&h=75&fit=crop",
+        "descricao": "A rainha do axé se apresenta em show especial comemorativo de 30 anos de carreira com repertório clássico e participações especiais na Arena Fonte Nova.",
+        "valor": 190,
+        "eh_novidade": true
+      },
+      {
+        "id": 7,
+        "nome": "Anime Friends",
+        "foto": "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?w=75&h=75&fit=crop",
+        "descricao": "O maior evento de cultura japonesa do Brasil com cosplays, painéis, autógrafos e exposições de mangás e animes no Expo Center Norte.",
+        "valor": 120,
+        "eh_novidade": true
+      }
+    ]
+  }
+}
